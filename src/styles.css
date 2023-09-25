@@ -1,0 +1,111 @@
+/* APP WRAPPER */
+.App {
+  padding: 1em;
+  width: 80%;
+  margin: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .App {
+    width: 100%;
+  }
+}
+
+/* END OF APP WRAPPER */
+
+/* PROFILE STYLES */
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 2em;
+}
+
+.company {
+  line-height: 30px;
+}
+
+.writer {
+  margin-top: 1em;
+}
+
+/* END OF PROFILE STYLES */
+
+/* WORK EXPERIENCE SECTION STYLES */
+.work {
+  margin: 0;
+  padding: 0;
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.work li {
+  list-style: none;
+  margin: 0;
+  padding: 10px 20px;
+  margin-bottom: 1em;
+  box-shadow: 0 2px 3px #555, 2px 3px 5px #aeaeae;
+  border-radius: 10px;
+}
+
+.work-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: wrap;
+  font-size: 1.4em;
+  gap: 1rem;
+}
+
+.work-title span {
+  display: inline-block;
+  flex: 1;
+  font-size: 0.8em;
+}
+
+.work-title span:first-of-type {
+  flex: 2;
+  font-size: inherit;
+}
+
+/* END OF WORK EXPERIENCE SECTION STYLES */
+
+/* PORTFOLIO SECTION STYLES */
+.portfolio {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: left;
+
+  gap: 2em;
+}
+
+button {
+  background-color: red;
+  color: white;
+  border: none;
+  float: right;
+}
+
+.project {
+  max-width: 40%;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 50%;
+  border-radius: 50%;
+}
+
+.project-image img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(77, 77, 255);
+}
+/* END OF PORTFOLIO STYLES */
